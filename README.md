@@ -2,9 +2,13 @@
 
 A responsive full-stack web application that allows users to search for doctors by location and specialty. Built using modern technologies with a mobile-first approach and clean UI based on the provided screenshots.
 
-> 📸 This project was built to match the UI/UX based on the provided screenshots.  
-> 🔗 [Screenshot 1](https://example.com/screenshot1)  
-> 🔗 [Screenshot 2](https://example.com/screenshot2)
+> 📸 This project was built to match the UI/UX based on the provided screenshots.
+
+<p align="center">
+  <img src="./client/public/s1.png" alt="FindDoctor UI Screenshot 1" width="600"/>
+  <br/>
+  <img src="./client/public/s2.png" alt="FindDoctor UI Screenshot 2" width="600"/>
+</p>
 
 ---
 
