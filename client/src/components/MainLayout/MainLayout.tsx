@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 const MainLayout = () => {
   return (
     <>
-      <div className="bg-blue-700 w-full flex flex-col items-center justify-center p-6 min-h-100">
+      <div className="bg-[url('/bg.png')] bg-cover bg-center w-full flex flex-col items-center justify-center p-6 min-h-100">
         <h1 className="text-center text-white text-6xl font-semibold">
           Your home for health
         </h1>

@@ -14,9 +14,12 @@ export const fetchDoctors = createAsyncThunk(
   "doctors/fetchDoctors",
   async ({ query, location }: FetchDoctorsParams, thunkAPI) => {
     try {
-      const res = await axios.get("http://localhost:8000/api/doctors/search", {
-        params: { query, location },
-      });
+      const res = await axios.get(
+        `${process.env.NEXT_PUBLIC_BACKEND_API}/doctors/search`,
+        {
+          params: { query, location },
+        }
+      );
       return {
         doctors: res.data.doctors,
         totalResults: res.data.count,

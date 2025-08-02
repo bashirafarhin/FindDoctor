@@ -8,9 +8,13 @@ dotenv.config({
 });
 
 const app = express();
-
+console.log(process.env.FRONTEND_URL);
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL,
+  })
+);
 app.use(express.json());
 app.use("/api/doctors", doctorRoutes);
 
