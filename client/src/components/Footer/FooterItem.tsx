@@ -1,7 +1,7 @@
 import React from "react";
 import { LucideIcon } from "lucide-react";
 import Button from "../ui/Button";
-import cn from "@/lib/utils/cn"; // adjust this path based on your project
+import cn from "@/lib/utils/cn";
 
 interface FooterItemProps {
   icon: LucideIcon;
